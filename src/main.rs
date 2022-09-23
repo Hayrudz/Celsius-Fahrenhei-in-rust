@@ -28,7 +28,8 @@ fn main() -> std::io::Result<()> {
                 let fahrenheit: f32;
                 let celsius_to_fahrenheit_formule = (celsius * 9.0/5.0) + 32.0;
                 fahrenheit = celsius_to_fahrenheit_formule;
-                println!("{celsius}°C = {fahrenheit}°F");            }
+                println!("{celsius}°C = {fahrenheit}°F");
+            }
             1 => {
                 io::stdin()
                 .read_line(&mut fahrenheit)
